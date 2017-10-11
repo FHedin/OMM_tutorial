@@ -12,7 +12,5 @@ dependencies:
 channels:
   - bioconda
   - omnia
-  - anaconda
-  - conda-forge
 
 
