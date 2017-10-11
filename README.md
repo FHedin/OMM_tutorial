@@ -9,7 +9,7 @@ conda env create -f environment.yml
 Force install of the most recent version of nglview
 
 ```
-conda install nglview -c bioconda
+conda upgrade -c bioconda --force nglview notebook ipywidgets 
 ```
 
 Probably need to activate widgetsnbextension
