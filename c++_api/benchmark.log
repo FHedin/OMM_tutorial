@@ -1,0 +1,10 @@
+> make benchmark
+time HelloSodiumChloride > cpp.pdb
+26.58user 4.56system 0:10.49elapsed 296%CPU (0avgtext+0avgdata 94168maxresident)k
+0inputs+1864outputs (0major+14347minor)pagefaults 0swaps
+time HelloSodiumChlorideInC > c.pdb
+26.92user 4.35system 0:10.32elapsed 303%CPU (0avgtext+0avgdata 91892maxresident)k
+0inputs+1864outputs (0major+15983minor)pagefaults 0swaps
+time HelloSodiumChlorideInFortran > f90.pdb
+27.26user 4.30system 0:10.39elapsed 303%CPU (0avgtext+0avgdata 92352maxresident)k
+0inputs+1904outputs (0major+14293minor)pagefaults 0swaps
