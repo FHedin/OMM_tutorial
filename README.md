@@ -5,19 +5,11 @@ Create a conda environment using the provided YAML file:
 ```
 conda env create -f environment.yml
 ```
-
-Force install of the most recent version of nglview
-
-```
-conda upgrade -c bioconda --force nglview notebook ipywidgets 
-```
-
-Probably need to activate widgetsnbextension
+If you get an error message for nglview, it is probably needed to activate some extensions:
 
 ```
 python -m ipykernel install --sys-prefix
 jupyter nbextension enable --py --sys-prefix widgetsnbextension
 jupyter nbextension enable --py --sys-prefix nglview
 ```
-
 
