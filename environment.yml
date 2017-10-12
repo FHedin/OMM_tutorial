@@ -1,16 +1,10 @@
 name: openmm-tutorials
 dependencies:
-- python=3.5
-- openmm
-- openmmtools
-- numpy
-- nglview
 - jupyter
 - notebook
+- openmm
 - mdtraj
-
+- nglview
 channels:
-  - bioconda
-  - omnia
-
-
+- omnia
+- conda-forge
