@@ -5,6 +5,8 @@ dependencies:
 - openmm
 - mdtraj
 - nglview
+- ipywidgets=6.0.0
+- widgetsnbextension=2.0.0
 channels:
+- bioconda
 - omnia
-- conda-forge
